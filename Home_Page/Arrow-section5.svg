@@ -1,0 +1,21 @@
+<svg width="97" height="44" viewBox="0 0 97 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Aerrow">
+<g id="&#62;">
+<circle id="Background" cx="74.7676" cy="22.2324" r="21.7676" fill="#091242"/>
+<path id="Vector" d="M69 21.4648H81" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M76 16.4648L81 21.4648L76 26.4648" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="&#60;">
+<circle id="Background_2" cx="21.7676" cy="21.7676" r="21.7676" transform="matrix(-1 0 0 1 43.5352 0.464844)" fill="url(#paint0_linear_1_1433)"/>
+<path id="Vector_3" d="M28 21.4648L16 21.4648" stroke="#091242" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M21 26.4648L16 21.4648L21 16.4648" stroke="#091242" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_1433" x1="-1.23424" y1="9.43261" x2="53.5333" y2="13.3219" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFB629"/>
+<stop offset="0.507189" stop-color="#FFDA56"/>
+<stop offset="1" stop-color="#FFD7A6"/>
+</linearGradient>
+</defs>
+</svg>

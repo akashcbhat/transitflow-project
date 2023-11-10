@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 10px;
+            width: 100%;
+        }
+
+        .grid-item {
+            width: 100%;
+            padding: 0;
+            position: relative;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+
+        .grid-item .text-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .grid-item:hover .text-overlay {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="image1.jpg" alt="Image 1">
+            <div class="text-overlay">
+                <p>Description of Image 1</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="image2.jpg" alt="Image 2">
+            <div class="text-overlay">
+                <p>Description of Image 2</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="image3.jpg" alt="Image 3">
+            <div class="text-overlay">
+                <p>Description of Image 3</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="image4.jpg" alt="Image 4">
+            <div class="text-overlay">
+                <p>Description of Image 4</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <img src="image5.jpg" alt="Image 5">
+            <div class="text-overlay">
+                <p>Description of Image 5</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,1549 @@
+html {
+    font-size: 62.5%;
+    font-family: Krub;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.logoheader {
+    position: relative;
+    height: 15vh;
+    min-height: 15vh;
+}
+
+.logo {
+    background-color: rgb(9, 18, 67);
+    color: #fff;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    min-height: 15vh;
+}
+
+#imglogo {
+    width: 15vw;
+    height: auto;
+    min-width: 15vw;
+    min-height: 3.5vh;
+}
+
+#addrsbar {
+    height: auto;
+    width: 40vw;
+    padding-left: 20rem;
+}
+
+#homebannerimage {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    size: cover;
+}
+
+.navigation {
+    background: linear-gradient(90deg,
+            rgba(9, 18, 67, 0.2),
+            rgba(9, 18, 67, 0.1));
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20%;
+    place-items: center;
+    position: absolute;
+    top: 15vh;
+    min-width: 15vw;
+    min-height: 10vh;
+}
+
+
+.navig {
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    place-items: center;
+    column-gap: 1vw;
+    margin-left: 11vw;
+}
+
+
+#hometext {
+    font-size: 2vh;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#abouttext {
+    font-size: 2vh;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+#servicetext {
+    font-size: 2vh;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+.line {
+    width: 1px;
+    height: 2vh;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+#insta,
+#fb,
+#twitter,
+#linked {
+    height: 2vh;
+
+}
+
+.follow {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    column-gap: 0rem;
+    margin-left: 0;
+    margin-right: 15vw;
+}
+
+#button-demo {
+    height: 10vh;
+    background: white;
+    width: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#request-button {
+    font-family: Krub;
+    color: #000000;
+    font-size: 0.7vw;
+    font-weight: 600;
+}
+
+#text-in-home {
+    position: absolute;
+    top: 40vh;
+    left: 17vw;
+}
+
+#text-1 {
+    color: #FFFFFF;
+    background: rgba(4, 28, 55, 0.50);
+    width: 23rem;
+    font-size: 1.3rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left-color: #ffb629;
+}
+
+#text-2 {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 3.3vw;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 1.5rem;
+}
+
+#text-3 {
+    color: #FFF;
+    font-family: Krub;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%;
+    padding-top: 1.5rem;
+}
+
+
+#btnexplore {
+    background: url(Background-button.svg);
+    color: #23212A;
+    font-family: Krub;
+    font-size: 1.5vh;
+    font-style: normal;
+    font-weight: 600;
+    border: 0;
+    width: 18vh;
+    height: 6vh;
+}
+
+#explore-btn {
+    padding-top: 1.5rem;
+}
+
+.card {
+    position: relative;
+    min-width: 100%;
+    min-height: 50vh;
+}
+
+#subtext-grid {
+    position: absolute;
+    top: 8rem;
+    left: 17vw;
+}
+
+.card-body {
+    position: absolute;
+    left: 32vw;
+    top: 7rem;
+    min-width: 50vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 2vw;
+    width: 58vw;
+    min-width: 50vw;
+    padding-right: 5rem;
+    
+}
+
+.grid-item {
+    width: 30vw;
+    display: grid;
+    margin-right: 2rem;
+    grid-template-columns: 0.25fr 1fr;
+    grid-template-rows: 0.7fr 1fr;
+    
+}
+
+.grid-item-one {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-style: solid;
+    border-width: 1px;
+    border-left: 0;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 2rem;
+    border-right-color: #D8D8D8;
+    width: 3vw;
+    min-width: 3vw;
+    
+}
+
+#flight-icon {
+    padding-right: 1rem;
+    
+}
+
+.main-text {
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 30rem;
+    
+}
+
+.small-text {
+    color: #666C89;
+    font-family: Krub;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 151.523%;
+    width: 25rem;
+    min-width: 25rem;
+    
+}
+
+
+#lefttxt1 {
+    color: #000000;
+    background: rgba(232, 232, 232, 0.50);
+    width: 4.5vw;
+    font-size: 1.3vh;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left-color: #ffb629;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-weight: 400;
+    
+}
+
+#lefttxt2 {
+    width: 15vw;
+    font-size: 3vh;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-weight: 900;
+    
+}
+
+.section-3 {
+    position: relative;
+    min-height: 100vh;
+}
+
+.banner2 {
+    width: 98.8vw;
+    height: 50vh;
+    object-fit: cover;
+    size: cover;
+    background: linear-gradient(0deg, #091242 -11.11%, rgba(9, 18, 66, 0.00) 90.28%) , url(Photo2.png);
+}
+.about-div {
+    position: absolute;
+    top: 20rem;
+    left: 19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 60%;
+    height: 68rem;
+    flex-shrink: 0;
+}
+.about-text {
+    position: absolute;
+    left: 5vw;
+    top: 5vw;
+}
+
+#lefttxt3 {
+    color: #000000;
+    background: rgba(232, 232, 232, 0.50);
+    width: 4vw;
+    font-size: 1.5vh;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left-color: #ffb629;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-weight: 400;
+}
+
+#lefttxt4 {
+    width: 20vw;
+    font-size: 1.5vw;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-weight: 900;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.small-text-about {
+    color: #666C89;
+    font-family: Krub;
+    font-size: 1.35rem;
+    font-style: normal;
+    font-weight: 500;
+    width: 20vw;
+}
+
+.about-images {
+    position: absolute;
+    top: 5vw;
+    left: 35vw;
+    min-width: 10vw;
+    min-height: 10vh;
+}
+
+#air-about-image {
+    width: 20vw;
+    min-width: 10vw;
+    min-height: 10vh;
+}
+
+#girl-about-image {
+    position: absolute;
+    left: -5vw;
+    top: 21vh;
+    width: 13vw;
+    border-right: solid 2rem white;
+    border-top: solid 2rem white;
+    min-width: 10vw;
+    min-height: 10vh;
+}
+
+.delivery-icons {
+    padding-top: 2vh;
+}
+
+#delivery-icon {
+    width: 13vw;
+}
+
+.total-counting {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4vw;
+    position: absolute;
+    top: 63vh;
+    border-top: solid 0.1rem rgb(183, 183, 183);
+    border-bottom: solid 0.1rem rgb(183, 183, 183);
+    height: 10vh;
+    width: 52vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-total-count {
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 1fr;
+    column-gap: 1vw;
+    border-right: solid 0.1rem rgb(183, 183, 183);
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.second-total-count {
+    display: grid;
+    grid-template-columns: 0.5fr 0.1fr 1fr;
+    column-gap: 1vw;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1.5vw;
+}
+
+#first-count {
+    padding-left: 2vw;
+}
+
+#first-count,
+#second-count {
+    font-size: 3vw;
+    font-family: Rubik;
+    font-weight: 400;
+    margin: 0;
+}
+
+#second-count-text,
+#first-count-text {
+    font-family: League Spartan;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.section-4 {
+    position: relative;
+    min-height: 80vh;
+}
+
+.section-4-start-text {
+    position: absolute;
+    top: 5rem;
+    left: 35vw;
+}
+
+#section-4-text {
+    text-align: center;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-size: 1.6vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.grid-container-section4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 15px;
+    width: 70vw;
+    position: absolute;
+    top: 15rem;
+    left: 15vw;
+    min-width: 50vw;
+    min-height: auto;
+}
+
+.grid-item-s4 {
+    padding: 0;
+    position: relative;
+    background-color: #f0f0f0;
+    min-width: 10vw;
+    min-height: 10vh;
+}
+
+.image-overlay-s4 {
+    position: absolute;
+    top: 10rem;
+    bottom: 0rem;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, #040a2c 14.34%, rgba(60, 60, 60, 0.00) 43.86%);
+}
+
+.grid-item-s4 img {
+    min-width: 50px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.text-overlay-s4 {
+    position: absolute;
+    top: 85%;
+    left: 8%;
+    color: #fff;
+    max-width: 100%;
+}
+
+#main-overlay-text {
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 0.9vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 0.4rem;
+}
+
+#sub-overlay-text {
+    color: #FFB629;
+    font-family: Krub;
+    font-size: 0.7vw;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.banner3 {
+    position: absolute;
+    top: 30rem;
+    background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+    width: 100%;
+    height: 38vh;
+}
+
+#btnmorework {
+    background: url(Background-button2.svg);
+    color: #ffffff;
+    font-family: Krub;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    border: 0;
+    width: 18.5rem;
+    height: 6.5vh;
+}
+
+#morework-btn {
+    position: absolute;
+    top: 55vh;
+    left: 43%;
+}
+
+.section-5 {
+    position: relative;
+    min-height: 70vh;
+}
+
+.testimonial {
+    position: absolute;
+    top: 0rem;
+    left: 25vw;
+    width: 5vw;
+    background: #ffffff;
+}
+
+#testimonial-arrow {
+    position: absolute;
+    top: 0.2vh;
+    left: 36.5vw;
+    
+}
+
+#testimonial-title {
+    color: #000000;
+    background: rgba(232, 232, 232, 0.50);
+    width: 4.5vw;
+    padding: 0.3%;
+    font-size: 1.3vh;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 0;
+    border-left-color: #ffb629;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-weight: 400;
+
+}
+
+#testimonial-text {
+    position: absolute;
+    top: 0rem;
+    width: 20vw;
+    font-size: 3vh;
+    color: #1C1F35;
+    font-family: Rubik;
+    font-weight: 900;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 600;
+    
+}
+
+.section-5-grid-container {
+    position: absolute;
+    top: 12rem;
+    left: 25vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: #d6d6d6;
+    height: 40vh;
+}
+
+.section-5-grid-left-item {
+    padding-left: 5rem;
+    display: grid;
+    grid-template-rows: repeat(3, 0.4fr);
+    width: 19vw;
+    background: #F4F4F4;
+}
+
+.section-5-user {
+    display: grid;
+    width: 16vw;
+    padding-top: 5rem;
+    grid-template-columns: 0.2fr 1.2fr 0.1fr;
+    
+}
+
+.circular-image-container {
+    width: 7rem;
+    height: 7rem;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.user-detail-section5 {
+
+    padding-left: 0.2vw;
+}
+
+.user-double-quote-icon {
+    width: 3.1vw;
+
+}
+
+.section-5-text {
+    width: 16vw;
+    text-align: justify;
+    padding-top: 1rem;
+    margin-left: 0rem;
+
+}
+
+.section-5-stars {
+    padding-top: 2rem;
+    margin-left: 0rem;
+
+}
+
+.star-section-5 {
+    width: 14rem;
+
+}
+
+.section-5-middle-paragraph-text {
+    font-size: 1.3rem;
+    font-family: Krub;
+    font-style: italic;
+
+}
+
+#user-name-section5 {
+    font-family: Rubik;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+#user-company-section5 {
+    font-family: Krub;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+
+.section-5-grid-right-item {
+    padding-left: 5rem;
+    display: grid;
+    grid-template-rows: repeat(3, 0.4fr);
+    width: 19vw;
+    background: #091242;
+}
+
+.section-5-middle-paragraph-text-r {
+    font-size: 1.3rem;
+    font-family: Krub;
+    font-style: italic;
+    color: #F4F4F4;
+
+}
+
+#user-name-section5-r {
+    font-family: Rubik;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+    color: white;
+    margin-bottom: 0;
+
+}
+
+#user-company-section5-r {
+    font-family: Krub;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0;
+    color: white;
+    margin-bottom: 0;
+
+}
+.section-6 {
+    position: relative;
+    min-height: 80vh;
+}
+
+.section-6-main-grid {
+    position: absolute;
+    /* top: 289rem; */
+    width: 100%;
+    height: 70vh;
+    background: #000000;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.section-6-main-grid-left{
+    background: #091242;
+}
+
+.section-6-main-grid-right{
+    background: #F4F4F4;
+}
+
+
+@media screen and (max-width: 768px){
+   
+    
+    .logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #imglogo {
+        width: 50vw;
+    }
+    
+    #addrsbar {
+        width: 90vw;
+        padding-left: 0rem;
+    }
+
+    
+    #homebannerimage {
+        width: 100%;
+        height: 90vh;
+        object-fit: cover;
+        size: cover;
+    }
+    
+    .navigation {
+        background: linear-gradient(90deg,
+                rgba(9, 18, 67, 0.2),
+                rgba(9, 18, 67, 0.1));
+        height: 10vh;
+        display: grid;
+        grid-template-columns: repeat(0, 1fr);
+        column-gap: 20%;
+        place-items: center;
+        position: absolute;
+        top: 15vh;
+        width: 100%;
+    }
+    
+    
+    .navig {
+        display: grid;
+        grid-template-columns: repeat(5, 0.5fr);
+        place-items: center;
+        column-gap: 5vw;
+        margin-left: 20vw;
+    }
+
+    
+    #hometext {
+        font-size: 2vh;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    #abouttext {
+        font-size: 2vh;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    #servicetext {
+        font-size: 2vh;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    
+    .line {
+        width: 1px;
+        height: 2vh;
+        background-color: rgba(255, 255, 255, 0.3);
+        display: flex;
+    }
+   
+    
+    #insta,
+    #fb,
+    #twitter,
+    #linked {
+        height: 0vh;
+        width: 0vw;
+        
+    }
+    
+    .follow {
+        display: grid;
+        grid-template-columns: repeat(0, 1fr);
+        place-items: center;
+        column-gap: 0rem;
+        margin-left: 0;
+        margin-right: 0vw;
+        width: 0;
+
+    }
+    
+    #button-demo {
+        height: 0vh;
+        background: white;
+        width: 0vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #request-button {
+        font-family: Krub;
+        color: #000000;
+        font-size: 0vw;
+        font-weight: 600;
+    }
+    
+    #text-in-home {
+        position: absolute;
+        top: 40vh;
+        left: 17vw;
+    }
+    
+    #text-1 {
+        color: #FFFFFF;
+        background: rgba(4, 28, 55, 0.50);
+        width: 23rem;
+        font-size: 1.3rem;
+        text-align: center;
+        border-style: solid;
+        border-width: 3px;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        border-left-color: #ffb629;
+    }
+    
+    #text-2 {
+        color: #FFF;
+        font-family: Rubik;
+        font-size: 8vw;
+        font-style: normal;
+        font-weight: 700;
+        padding-top: 1.5rem;
+    }
+    
+    #text-3 {
+        color: #FFF;
+        font-family: Krub;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+        padding-top: 1.5rem;
+    }
+    
+    
+    #btnexplore {
+        background: url(Background-button.svg);
+        color: #23212A;
+        font-family: Krub;
+        font-size: 1.5vh;
+        font-style: normal;
+        font-weight: 600;
+        border: 0;
+        width: 18vh;
+        height: 6vh;
+    }
+    
+    #explore-btn {
+        padding-top: 1.5rem;
+    }
+    
+
+    .card {
+        position: relative;
+        min-width: 100%;
+        min-height: 100vh;
+    }
+    
+    #subtext-grid {
+        position: absolute;
+        top: 5rem;
+        left: 5vw;
+    }
+    
+    .card-body {
+        position: absolute;
+        left: 5vw;
+        top: 20rem;
+        min-width: 50vw;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 2vw;
+        width: 58vw;
+        min-width: 50vw;
+        padding-right: 5rem;
+        
+    }
+    
+    .grid-item {
+        width: 30vw;
+        display: grid;
+        margin-right: 2rem;
+        grid-template-columns: 0.25fr 1fr;
+        grid-template-rows: 0.7fr 1fr;
+        
+    }
+    
+    .grid-item-one {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        border-style: solid;
+        border-width: 1px;
+        border-left: 0;
+        border-top: 0;
+        border-bottom: 0;
+        margin-right: 2rem;
+        border-right-color: #D8D8D8;
+        width: 10vw;
+        min-width: 3vw;
+        
+    }
+    
+    #flight-icon {
+        padding-right: 0rem;
+        
+    }
+    
+    .main-text {
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        width: 25rem;
+        
+    }
+    
+    .small-text {
+        color: #666C89;
+        font-family: Krub;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 151.523%;
+        width: 25rem;
+        min-width: 25rem;
+        
+    }
+    
+    
+    #lefttxt1 {
+        color: #000000;
+        background: rgba(232, 232, 232, 0.50);
+        width: 20vw;
+        font-size: 1.3vh;
+        text-align: center;
+        border-style: solid;
+        border-width: 3px;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        border-left-color: #ffb629;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-weight: 400;
+        
+    }
+    
+    #lefttxt2 {
+        width: 50vw;
+        font-size: 3vh;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-weight: 900;
+        
+    }
+    
+    .section-3 {
+        position: relative;
+        min-height: 130vh;
+    }
+    
+    .banner2 {
+        width: 98.8vw;
+        height: 50vh;
+        object-fit: cover;
+        size: cover;
+        background: linear-gradient(0deg, #091242 -11.11%, rgba(9, 18, 66, 0.00) 90.28%) , url(Photo2.png);
+    }
+    .about-div {
+        position: absolute;
+        top: 20rem;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 80%;
+        height: 68rem;
+        flex-shrink: 0;
+    }
+    .about-text {
+        position: absolute;
+        left: 5vw;
+        top: 5vw;
+    }
+    
+    #lefttxt3 {
+        color: #000000;
+        background: rgba(232, 232, 232, 0.50);
+        width: 15vw;
+        font-size: 2vh;
+        text-align: center;
+        border-style: solid;
+        border-width: 3px;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        border-left-color: #ffb629;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-weight: 400;
+    }
+    
+    #lefttxt4 {
+        width: 60vw;
+        font-size: 8vw;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-weight: 900;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 600;
+    }
+    
+    .small-text-about {
+        color: #666C89;
+        font-family: Krub;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 500;
+        width: 60vw;
+    }
+    
+    .about-images {
+        position: absolute;
+        top: 5vw;
+        left: 35vw;
+        min-width: 10vw;
+        min-height: 10vh;
+    }
+    
+    #air-about-image {
+        width: 0vw;
+        min-width: 0vw;
+        min-height: 0vh;
+    }
+    
+    #girl-about-image {
+        position: absolute;
+        left: -5vw;
+        top: 21vh;
+        width: 0vw;
+        border-right: solid 0rem white;
+        border-top: solid 0rem white;
+        min-width: 0vw;
+        min-height: 0vh;
+    }
+    
+    .delivery-icons {
+        padding-top: 2vh;
+    }
+    
+    #delivery-icon {
+        width: 50vw;
+    }
+    
+    .total-counting {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        column-gap: 4vw;
+        position: absolute;
+        top: 80vh;
+        left: 5vw;
+        border-top: solid 0.1rem rgb(183, 183, 183);
+        border-bottom: solid 0.1rem rgb(183, 183, 183);
+        height: 20vh;
+        width: 60vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .first-total-count {
+        display: grid;
+        grid-template-columns: 0.5fr 0.1fr 1fr;
+        column-gap: 5vw;
+        border-right: solid 0rem rgb(183, 183, 183);
+        justify-content: center;
+        align-items: center;
+        margin-right: 1vw;
+    }
+    
+    .second-total-count {
+        display: grid;
+        grid-template-columns: 0.5fr 0.1fr 1fr;
+        column-gap: 4vw;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0vw;
+        
+    }
+
+    #first-count {
+        padding-left: 0vw;
+    }
+    
+    #first-count,
+    #second-count {
+        font-size: 10vw;
+        font-family: Rubik;
+        font-weight: 400;
+        margin: 0;
+    }
+    
+    #second-count-text,
+    #first-count-text {
+        font-family: League Spartan;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 100;
+    }
+
+    
+    .section-4 {
+        position: relative;
+        min-height: 270vh;
+    }
+    
+    .section-4-start-text {
+        position: absolute;
+        top: 5rem;
+        left: 10vw;
+    }
+    
+    #section-4-text {
+        text-align: center;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-size: 8vw;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
+    .grid-container-section4 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        width: 70vw;
+        position: absolute;
+        top: 20rem;
+        left: 15vw;
+        min-width: 50vw;
+        min-height: auto;
+    }
+    
+    .grid-item-s4 {
+        padding: 0;
+        position: relative;
+        background-color: #f0f0f0;
+        min-width: 10vw;
+        min-height: 10vh;
+    }
+    
+    .image-overlay-s4 {
+        position: absolute;
+        top: 10rem;
+        bottom: 0rem;
+        width: 100%;
+        height: auto;
+        background: linear-gradient(0deg, #040a2c 14.34%, rgba(60, 60, 60, 0.00) 43.86%);
+    }
+    
+    .grid-item-s4 img {
+        min-width: 50px;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .text-overlay-s4 {
+        position: absolute;
+        top: 85%;
+        left: 8%;
+        color: #fff;
+        max-width: 100%;
+    }
+    
+    #main-overlay-text {
+        color: #FFF;
+        font-family: Rubik;
+        font-size: 5vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding-bottom: 0.4rem;
+    }
+    
+    #sub-overlay-text {
+        color: #FFB629;
+        font-family: Krub;
+        font-size: 3vw;
+        font-style: normal;
+        font-weight: 500;
+    }
+    
+    .banner3 {
+        position: absolute;
+        top: 40rem;
+        background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+        width: 100%;
+        height: 210vh;
+    }
+    
+    #btnmorework {
+        background: url(Background-button2.svg);
+        color: #ffffff;
+        font-family: Krub;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        border: 0;
+        width: 18.5rem;
+        height: 6.5vh;
+    }
+    
+    #morework-btn {
+        position: absolute;
+        top: 190rem;
+        left: 25%;
+    }
+    
+    .section-5 {
+        position: relative;
+        min-height: 130vh;
+    }
+    
+    .testimonial {
+        position: absolute;
+        top: 0rem;
+        left: 10vw;
+        width: 25vw;
+        background: #ffffff;
+    }
+    
+    #testimonial-arrow {
+        position: absolute;
+        top: 0.2vh;
+        left: 50vw;
+        
+    }
+    
+    #testimonial-title {
+        color: #000000;
+        background: rgba(232, 232, 232, 0.50);
+        width: 22vw;
+        padding: 0.3%;
+        font-size: 1.8vh;
+        text-align: center;
+        border-style: solid;
+        border-width: 3px;
+        border-right: 0;
+        border-top: 0;
+        border-bottom: 0;
+        border-left-color: #ffb629;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-weight: 400;
+    
+    }
+    
+    #testimonial-text {
+        position: absolute;
+        top: 0rem;
+        width: 55vw;
+        font-size: 3.5vh;
+        color: #1C1F35;
+        font-family: Rubik;
+        font-weight: 900;
+        font-family: Rubik;
+        font-style: normal;
+        font-weight: 600;
+        
+    }
+    
+    .section-5-grid-container {
+        position: absolute;
+        top: 12rem;
+        left: 12vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background: #d6d6d6;
+        height: 20vh;
+    }
+    
+    .section-5-grid-left-item {
+        padding-left: 5rem;
+        display: grid;
+        grid-template-rows: repeat(3, 0.4fr);
+        width: 55vw;
+        background: #F4F4F4;
+        
+    }
+    
+    .section-5-user {
+        display: grid;
+        width: 16vw;
+        padding-top: 5rem;
+        grid-template-columns: 0.2fr 1.2fr 0.1fr;
+        
+    }
+    
+    .circular-image-container {
+        width: 7rem;
+        height: 7rem;
+        overflow: hidden;
+        border-radius: 50%;
+    
+    }
+    
+    .circular-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    
+    }
+    
+    .user-detail-section5 {
+    
+        padding-left: 2vw;
+    }
+    
+    .user-double-quote-icon {
+        width: 5vw;
+    
+    }
+    
+    .section-5-text {
+        width: 50vw;
+        text-align: justify;
+        padding-top: 1rem;
+        margin-left: 0rem;
+    
+    }
+    
+    .section-5-stars {
+        padding-top: 2rem;
+        margin-left: 0rem;
+    
+    }
+    
+    .star-section-5 {
+        width: 14rem;
+    
+    }
+    
+    .section-5-middle-paragraph-text {
+        font-size: 1.3rem;
+        font-family: Krub;
+        font-style: italic;
+    
+    }
+    
+    #user-name-section5 {
+        font-family: Rubik;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+    
+    }
+    
+    #user-company-section5 {
+        font-family: Krub;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0;
+        margin-bottom: 0;
+    
+    }
+    
+    .section-5-grid-right-item {
+        padding-left: 5rem;
+        display: grid;
+        grid-template-rows: repeat(3, 0.4fr);
+        width: 55vw;
+        background: #091242;
+    }
+    
+    .section-5-middle-paragraph-text-r {
+        font-size: 1.3rem;
+        font-family: Krub;
+        font-style: italic;
+        color: #F4F4F4;
+    
+    }
+    
+    #user-name-section5-r {
+        font-family: Rubik;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0;
+        color: white;
+        margin-bottom: 0;
+    
+    }
+    
+    #user-company-section5-r {
+        font-family: Krub;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 500;
+        padding: 0;
+        color: white;
+        margin-bottom: 0;
+    
+    }
+    .section-6 {
+        position: relative;
+        min-height: 150vh;
+    }
+    
+    .section-6-main-grid {
+        position: absolute;
+        /* top: 289rem; */
+        width: 100%;
+        height: 70vh;
+        background: #000000;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .section-6-main-grid-left{
+        background: #091242;
+    }
+    
+    .section-6-main-grid-right{
+        background: #F4F4F4;
+    }
+    
+}
