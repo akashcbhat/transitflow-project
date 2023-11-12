@@ -84,11 +84,20 @@ body {
     margin-left: 11vw;
 }
 
+.icon-selected-line{
+    border-bottom: solid 1px white;
+    height: 10vh;
+    width: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 #hometext {
     font-size: 2vh;
     color: #ffffff;
     font-weight: 500;
+    
 }
 
 #abouttext {
@@ -1304,6 +1313,14 @@ a {
         margin-left: 20vw;
     }
 
+    .icon-selected-line{
+        border-bottom: solid 1px white;
+        height: 10vh;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
     #hometext {
         font-size: 2vh;
