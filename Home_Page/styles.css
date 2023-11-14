@@ -2483,7 +2483,9 @@ a {
         font-family: Krub;
         
     }
-    
+    #sec-8-overlay-text-1 ,#sec-8-overlay-text-2, #sec-8-overlay-text-3{
+        font-size: 1rem;
+    }
     #sec8-news-p1-grid2-2{
         font-size: 6vw;
     }
