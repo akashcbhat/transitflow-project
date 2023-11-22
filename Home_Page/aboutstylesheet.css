@@ -293,6 +293,11 @@ a {
 #delivery-icon {
     width: 9vw;
     padding-right: 1rem;
+    transition: transform 0.3s ease;
+}
+
+#delivery-icon:hover{
+    transform: scale(1.1);
 }
 
 .small-text-about-2 {
@@ -316,8 +321,13 @@ a {
     width: 17.5rem;
     height: 6vh;
     margin-top: 3%;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
+.section1-button:hover{
+    transform: scale(1.1);
+}
 
 .section2 {
     height: auto;
@@ -426,6 +436,10 @@ a {
 
 }
 
+.sec2-icon-top-item1:hover .sec2-first-text {
+    color: #FFB82B;
+}
+
 
 .section2-button {
     background: url(About_page/Background-button-sec1.svg);
@@ -438,6 +452,12 @@ a {
     width: 17.5rem;
     height: 6vh;
     margin-bottom: 5rem;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.section2-button:hover{
+    transform: scale(1.1);
 }
 
 .section3 {
@@ -839,8 +859,13 @@ a {
     width: 17.5rem;
     height: 6vh;
     margin-bottom: 3rem;
+    transition:  transform 0.3s ease;
+    cursor: pointer;
 }
 
+.button-sec6:hover{
+    transform: scale(1.1);
+}
 
 .second-bar-sec6 {
     width: 35rem;
@@ -874,6 +899,12 @@ a {
     width: 17.5rem;
     height: 6vh;
     margin-bottom: 3rem;
+    transition:  transform 0.3s ease;
+    cursor: pointer;
+}
+
+.button2-sec6:hover{
+    transform: scale(1.1);
 }
 
 .section7 {
@@ -1020,6 +1051,12 @@ a {
     margin-bottom: 3rem;
     margin-top: 3rem;
     margin-left: 5rem;
+    transition:  transform 0.3s ease;
+    cursor: pointer;
+}
+
+.button-sec7:hover{
+    transform: scale(1.1);
 }
 
 
@@ -1045,6 +1082,7 @@ a {
     margin-left: 1rem;
     width: 30rem;
     font-size: 1.2rem;
+    
 }
 
 .arrow-label {

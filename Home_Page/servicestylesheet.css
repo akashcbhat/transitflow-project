@@ -312,8 +312,13 @@ a {
     width: 17.5rem;
     height: 6vh;
     margin-bottom: 5rem;
+    transition:  transform 0.3s ease;
+    cursor: pointer;
 }
 
+.section2-button:hover{
+    transform: scale(1.1);
+}
 
 
 .section3 {
@@ -631,6 +636,12 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    transition: transform 0.3s ease;
+}
+
+
+#count-number:hover{
+    transform: scale(1.1);
 }
 
 #pattern-count {

@@ -207,7 +207,14 @@ a {
     border: 0;
     width: 18vh;
     height: 6vh;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
+
+#btnexplore:hover{
+    transform: scale(1.1);
+}
+
 
 #explore-btn {
     padding-top: 1.5rem;
@@ -580,6 +587,12 @@ a {
     border: 0;
     width: 18.5rem;
     height: 6.5vh;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#btnmorework:hover{
+    transform: scale(1.1);
 }
 
 #morework-btn {
@@ -1001,6 +1014,12 @@ a {
     font-family: Krub;
     font-weight: 500;
     background: linear-gradient(94deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+#s7-input-button:hover{
+    transform: scale(1.1);
 }
 
 .s7-body-bottom-grid {
@@ -1210,6 +1229,30 @@ a {
     padding-top: 2%;
     margin: 0 auto;
 }
+
+#sec-8-button-bt-tag {
+    background: url(Background-button2.svg);
+    color: #ffffff;
+    font-family: Krub;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    border: 0;
+    width: 18.5rem;
+    height: 6.5vh;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+#sec-8-button-bt-tag:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
 
 .section-8-image-div {
     position: relative;
